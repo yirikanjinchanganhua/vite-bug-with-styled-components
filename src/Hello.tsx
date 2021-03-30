@@ -18,6 +18,9 @@ export default class Hello extends BaseComponent<any, any> {
             <Content>
                 <h1 className="text">{this.title}</h1>
             </Content>
+            //     <div>
+            //      <h1 className="text">{this.title}</h1>
+            //     </div>
         );
     }
 }
